@@ -11,12 +11,12 @@ import RealmSwift
 class CategoryViewController: UITableViewController {
     
     let realm = try! Realm()
-    var categories = [Category]()
+    var categories: Results<Category>!
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
-//        loadCategories()
+        loadCategories()
     }
 
     
@@ -32,8 +32,6 @@ class CategoryViewController: UITableViewController {
             
             let newCategory = Category()
             newCategory.name = newTask
-            
-            self.categories.append(newCategory)
             
             self.save(category: newCategory)
             
@@ -62,15 +60,12 @@ class CategoryViewController: UITableViewController {
         tableView.reloadData()
     }
     
-//    func loadCategories(with request: NSFetchRequest<Category> = Category.fetchRequest()) {
-//        do {
-//            categories = try context.fetch(request)
-//        } catch {
-//            print ("Error fetching data from context: \(error)")
-//        }
-//        tableView.reloadData()
-//        
-//    }
+    func loadCategories() {
+        categories = realm.objects(Category.self)
+        
+        tableView.reloadData()
+        
+    }
     // MARK: - Table view data source
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
