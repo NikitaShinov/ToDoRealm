@@ -16,6 +16,7 @@
 		5027608A27A710AC00D76C2F /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5027608927A710AC00D76C2F /* CategoryViewController.swift */; };
 		5027608E27A711E900D76C2F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5027608D27A711E900D76C2F /* Item.swift */; };
 		5027609027A711F000D76C2F /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5027608F27A711F000D76C2F /* Category.swift */; };
+		50C0589027A832DF004A0D61 /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C0588F27A832DF004A0D61 /* SwipeTableViewController.swift */; };
 		FF9F9A92A608490BB74FE25C /* Pods_ToDoRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E75E2CE9EF0B07879A6B8444 /* Pods_ToDoRealm.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		5027608927A710AC00D76C2F /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		5027608D27A711E900D76C2F /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		5027608F27A711F000D76C2F /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		50C0588F27A832DF004A0D61 /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
 		8E61B0F2E1EBD207B803C4CD /* Pods-ToDoRealm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoRealm.release.xcconfig"; path = "Target Support Files/Pods-ToDoRealm/Pods-ToDoRealm.release.xcconfig"; sourceTree = "<group>"; };
 		E75E2CE9EF0B07879A6B8444 /* Pods_ToDoRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToDoRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F05327BDC7FA955800F423B4 /* Pods-ToDoRealm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoRealm.debug.xcconfig"; path = "Target Support Files/Pods-ToDoRealm/Pods-ToDoRealm.debug.xcconfig"; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				5027608F27A711F000D76C2F /* Category.swift */,
 				5027607927A7103400D76C2F /* TodoListViewController.swift */,
 				5027608927A710AC00D76C2F /* CategoryViewController.swift */,
+				50C0588F27A832DF004A0D61 /* SwipeTableViewController.swift */,
 				5027607B27A7103400D76C2F /* Main.storyboard */,
 				5027607E27A7103600D76C2F /* Assets.xcassets */,
 				5027608027A7103600D76C2F /* LaunchScreen.storyboard */,
@@ -218,6 +221,7 @@
 				5027608E27A711E900D76C2F /* Item.swift in Sources */,
 				5027608A27A710AC00D76C2F /* CategoryViewController.swift in Sources */,
 				5027607A27A7103400D76C2F /* TodoListViewController.swift in Sources */,
+				50C0589027A832DF004A0D61 /* SwipeTableViewController.swift in Sources */,
 				5027607627A7103400D76C2F /* AppDelegate.swift in Sources */,
 				5027607827A7103400D76C2F /* SceneDelegate.swift in Sources */,
 				5027609027A711F000D76C2F /* Category.swift in Sources */,

@@ -10,7 +10,7 @@
         <!--Items-->
         <scene sceneID="Ixg-d3-PT2">
             <objects>
-                <tableViewController id="2Hu-2d-ODe" customClass="TodoListViewController" customModule="To_do_List" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="2Hu-2d-ODe" customClass="TodoListViewController" customModule="ToDoRealm" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="whj-rJ-bh4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -24,7 +24,7 @@
                             </connections>
                         </searchBar>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ToDoItemCell" id="uVB-ML-9rX">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="uVB-ML-9rX" customClass="SwipeTableViewCell" customModule="SwipeCellKit">
                                 <rect key="frame" x="0.0" y="88.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="uVB-ML-9rX" id="wsC-nN-a1o">
@@ -38,7 +38,7 @@
                             <outlet property="delegate" destination="2Hu-2d-ODe" id="6uT-RJ-X0W"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Items" id="DO4-HA-HMW">
+                    <navigationItem key="navigationItem" title="Items" largeTitleDisplayMode="always" id="DO4-HA-HMW">
                         <barButtonItem key="rightBarButtonItem" image="plus" catalog="system" id="VH7-QO-Pxo">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
@@ -78,13 +78,13 @@
         <!--Todoey-->
         <scene sceneID="nas-NM-xue">
             <objects>
-                <tableViewController id="HH4-Ii-REz" customClass="CategoryViewController" customModule="To_do_List" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="HH4-Ii-REz" customClass="CategoryViewController" customModule="ToDoRealm" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="cfQ-PW-TGf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CategoryCell" id="f1y-eu-aTz">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="f1y-eu-aTz" customClass="SwipeTableViewCell" customModule="SwipeCellKit">
                                 <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="f1y-eu-aTz" id="KeT-xp-vWR">
@@ -98,7 +98,7 @@
                             <outlet property="delegate" destination="HH4-Ii-REz" id="wU4-f5-Swr"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Todoey" id="N3o-j7-NnG">
+                    <navigationItem key="navigationItem" title="Todoey" largeTitleDisplayMode="always" id="N3o-j7-NnG">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="nye-4g-qmg">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
